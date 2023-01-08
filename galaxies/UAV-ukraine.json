@@ -1,0 +1,8 @@
+{
+    "description":"UAVs/UCAVs used by Ukraine in russo-ukranian war",
+    "icon":"plane",
+    "name": "UAV Ukraine",
+    "type":"uav-ukraine",
+    "uuid":"df13e82a-3992-45d3-961a-dd53d4281135",
+    "version":"1"
+}
