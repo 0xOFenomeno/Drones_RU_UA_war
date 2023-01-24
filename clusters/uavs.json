@@ -1,10 +1,13 @@
 {
-    "authors": "Enes AYATA",
+    "authors": [
+        "Enes AYATA"
+    ],
     "category": "military equipment",
-    "description": "UAVs/UCAVs used by Russia in russo-ukranian war",
+    "description": "Unmanned Aerial Vehicles / Unmanned Combat Aerial Vehicles",
+    "name": "UAVs/UCAVs",
     "source": "Popular Mechanics",
-    "type": "uav-ukraine",
-    "uuid": "0e6899bf-5670-4876-9940-5eb94fc89870",
+    "type": "uavs",
+    "uuid": "bef5c29d-b0db-4923-aa9a-80921f26d3ab",
     "values": [
         {
             "description": "R18",
@@ -16,8 +19,21 @@
                 "Top speed": "N/A",
                 "Powerplant": "Electric"
             },
-            "uuid": "d23b047e-1d4d-499a-bb02-ba578638224b",
+            "uuid": "f41b3065-d1ff-4f95-87b9-2f6119a258d9",
             "value": "R18"
+        },
+        {
+            "description": "KBLA-IVT",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "15 feet",
+                "Flight time": "60 minutes",
+                "Top speed": "N/A",
+                "Power plant": "Internal combustion"
+            },
+            "uuid": "7a9cf9ba-89c0-43c1-83dd-f84702f972e5",
+            "value": "KBLA-IVT"
         },
         {
             "description": "Autel Evo II",
@@ -29,7 +45,7 @@
                 "Top speed": "45 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "90159f3b-2965-4c00-b0b9-bffb245f49f1",
+            "uuid": "b4022606-acde-42ac-9a14-9b32e4b89430",
             "value": "Autel Evo II"
         },
         {
@@ -42,7 +58,7 @@
                 "Top speed": "29 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "671e92c3-db39-4e5f-ae0f-330027ee93e9",
+            "uuid": "eaa5bf80-7d92-4647-9634-25062de56d03",
             "value": "DJI Mavic Series"
         },
         {
@@ -55,7 +71,7 @@
                 "Top Speed": "50 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "04351a71-69ff-4496-9934-6f8c66acc4cb",
+            "uuid": "bec21c84-635e-4492-bdc8-69d22cb2714e",
             "value": "Golden Eagle"
         },
         {
@@ -68,8 +84,34 @@
                 "Top speed": "25 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "1656d634-c9fd-4fa7-95f6-1b679d758cba",
+            "uuid": "e4a29ac6-2ed1-40ff-a604-afe2f1652983",
             "value": "Skydio X2"
+        },
+        {
+            "description": "RQ-4 Global Hawk",
+            "meta": {
+                "Operator": "USA",
+                "Made in": "USA",
+                "Wingspan": "131 feet",
+                "Flight time": "More than 34 hours",
+                "Top speed": "Faster than 350 mph",
+                "Powerplant": "Turbofan jet"
+            },
+            "uuid": "58143577-5d3d-42ae-919b-a0ddfb261f15",
+            "value": "RQ-4 Global Hawk"
+        },
+        {
+            "description": "Orion",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "48 feet",
+                "Flight time": "24 hours",
+                "Top speed": "120 mph",
+                "Powerplant": "Internal combustion"
+            },
+            "uuid": "6f831b3c-54f4-4c8d-aeb3-884aa79ab916",
+            "value": "Orion"
         },
         {
             "description": "Bayraktar TB2",
@@ -81,7 +123,7 @@
                 "Top speed": "100 mph",
                 "Powerplant": "Gasoline internal combustion"
             },
-            "uuid": "4deacfee-7620-4a0b-91e7-f4d0e93c691d",
+            "uuid": "73e1ef18-494c-4601-97f6-837df6fb98f7",
             "value": "Bayraktar TB2"
         },
         {
@@ -94,8 +136,34 @@
                 "Top speed": "100 mph",
                 "Powerplant": "Gasoline internal combustion"
             },
-            "uuid": "1376cf70-fca3-4a94-abb7-ab8a88955e55",
+            "uuid": "3f38ef21-805b-4b59-9d5e-f12563f0a563",
             "value": "UJ-22 Airborne"
+        },
+        {
+            "description": "Forpost",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "28 feet",
+                "Flight time": "20 hours",
+                "Top speed": "125 mph",
+                "Power plant": "Gasoline internal combustion"
+            },
+            "uuid": "0af9c17a-b852-4bb7-9241-94af3807dbe9",
+            "value": "Forpost"
+        },
+        {
+            "description": "Zala 421",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "17 feet",
+                "Flight time": "6 hours",
+                "Top speed": "74 mph",
+                "Powerplant": "Electric"
+            },
+            "uuid": "7ca0ab96-d796-47cd-a503-aef7bec53944",
+            "value": "Zala 421"
         },
         {
             "description": "PD-1 People\u2019s Drone",
@@ -107,8 +175,21 @@
                 "Top speed": "90 mph",
                 "Powerplant": "Internal combustion engine"
             },
-            "uuid": "80af474c-149d-4510-b6ac-ebdfd9a2c796",
+            "uuid": "19317a2e-55c7-4e5a-b22d-6e5255b9a9ab",
             "value": "PD-1 People\u2019s Drone"
+        },
+        {
+            "description": "Tupolev Tu-141 Strizh",
+            "meta": {
+                "Operator": "Unknown",
+                "Made in": "Former USSR Member States",
+                "Wingspan": "12 feet",
+                "Flight time": "60 minutes",
+                "Top speed": "680 mph",
+                "Powerplant": "Turbojet"
+            },
+            "uuid": "e5769573-ef5b-4a2a-bad9-96e1039e5e30",
+            "value": "Tupolev Tu-141 Strizh"
         },
         {
             "description": "WB FlyEye",
@@ -120,8 +201,47 @@
                 "Top speed": "80 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "9c2a39da-f3a4-4f1a-b6c4-ec272332fb3b",
+            "uuid": "3f54bd21-a5d3-4130-b42d-be77ddf892f6",
             "value": "WB FlyEye"
+        },
+        {
+            "description": "Granat-4",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "11 feet",
+                "Flight time": "6 hours",
+                "Top speed": "90 mph",
+                "Powerplant": "Gasoline internal combustion"
+            },
+            "uuid": "ebfaee1d-c92e-420e-9320-a36869a36090",
+            "value": "Granat-4"
+        },
+        {
+            "description": "Orlan-10",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "10 feet",
+                "Flight time": "18 hours",
+                "Top speed": "93 mph",
+                "Powerplant": "Internal combustion"
+            },
+            "uuid": "af099191-2125-421d-a725-cdee964cc735",
+            "value": "Orlan-10"
+        },
+        {
+            "description": "Orlan-30",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "10 feet",
+                "Flight time": "5 hours",
+                "Top speed": "93 mph",
+                "Powerplant": "Internal combustion"
+            },
+            "uuid": "00d8db9f-cc93-41d3-abf0-45effe4d3a46",
+            "value": "Orlan-30"
         },
         {
             "description": "Quantum Systems Vector",
@@ -133,7 +253,7 @@
                 "Top speed": "Over 25 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "ed8b89a5-d6b9-457d-9011-cd5c74df4ac8",
+            "uuid": "3278be88-9a95-4171-b8da-2a1e1804dc1c",
             "value": "Quantum Systems Vector"
         },
         {
@@ -146,7 +266,7 @@
                 "Top speed": "75 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "488ef4a8-53d1-48ca-8a51-71d08c2800a9",
+            "uuid": "ae9a64f4-b133-4889-958e-b7345e07b5fa",
             "value": "Spectator"
         },
         {
@@ -159,8 +279,21 @@
                 "Top speed": "47 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "51ba79b7-4f38-44c0-b538-2785889d735e",
+            "uuid": "e7d775d1-4f86-45b6-9893-791fd6b8ab4d",
             "value": "RQ-20 Puma"
+        },
+        {
+            "description": "E95",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "8 feet",
+                "Flight time": "30 minutes",
+                "Top speed": "250 mph",
+                "Powerplant": "Pulse jet"
+            },
+            "uuid": "0f1d8036-3824-4b6e-b0a2-000f9ddcb83c",
+            "value": "E95"
         },
         {
             "description": "Tupolev Tu-143 Reis",
@@ -172,8 +305,21 @@
                 "Top speed": "Over 600 mph",
                 "Powerplant": "Turbojet"
             },
-            "uuid": "acaf3197-7717-4673-aaef-e8a77a939aa3",
+            "uuid": "4f9e8b87-59ce-4aee-8fe4-9224dd908059",
             "value": "Tupolev Tu-143 Reis"
+        },
+        {
+            "description": "Zastava",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia and Israel",
+                "Wingspan": "7 feet",
+                "Flight time": "80 minutes",
+                "Top speed": "52 mph",
+                "Powerplant": "Electric"
+            },
+            "uuid": "1b9486ef-116a-437e-b73f-500a8847942b",
+            "value": "Zastava"
         },
         {
             "description": "Punisher",
@@ -185,7 +331,7 @@
                 "Top speed": "Over 50 mph",
                 "Power plant": "Electric"
             },
-            "uuid": "b52f0ee8-48e0-403d-9e0d-9cec2dfb6bf4",
+            "uuid": "a8331bd9-fec8-4ce7-b9b0-6ee1c17ccf2c",
             "value": "Punisher"
         },
         {
@@ -198,8 +344,21 @@
                 "Top speed": "Over 45 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "86a7d85e-684b-41e6-bb30-a0bdefe073b6",
+            "uuid": "4316be36-c248-42e7-a78e-aa8ffc8a25e3",
             "value": "Mini-Bayraktar"
+        },
+        {
+            "description": "Takion",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "7 feet",
+                "Flight time": "2 hours",
+                "Top speed": "75 mph",
+                "Powerplant": "Electric"
+            },
+            "uuid": "64459af9-a2cf-480c-a0f2-443512cde065",
+            "value": "Takion"
         },
         {
             "description": "Leleka-100 \u201cStork\u201d",
@@ -211,7 +370,7 @@
                 "Top speed": "75 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "2d36e86b-23ef-42f7-90d4-b30093ce516f",
+            "uuid": "78648d4f-d252-40a7-861e-e7322187d725",
             "value": "Leleka-100 \u201cStork\u201d"
         },
         {
@@ -224,8 +383,21 @@
                 "Top speed": "Over 60 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "486336ab-e05d-4d00-8a4d-839b908b536c",
+            "uuid": "c31b47bc-95b8-4d48-afe5-b8d6218f4358",
             "value": "Athlon Avia A1-CM Furia"
+        },
+        {
+            "description": "Eleron-3",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "4 feet",
+                "Flight time": "100 minutes",
+                "Top speed": "80 mph",
+                "Powerplant": "Electric"
+            },
+            "uuid": "e0d96a29-8a9e-4d89-baa2-4ab10c873b19",
+            "value": "Eleron-3"
         },
         {
             "description": "AeroVironment Quantix",
@@ -237,7 +409,7 @@
                 "Top speed": "Over 40 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "9867ec20-2e08-4ca8-89a1-804fba7da2e9",
+            "uuid": "6795a02e-eb14-4a0e-9ef9-650ec6de7972",
             "value": "AeroVironment Quantix"
         },
         {
@@ -250,7 +422,7 @@
                 "Top speed": "Over 100 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "b7c45982-b3b7-4e8e-89b5-5f0867072803",
+            "uuid": "8327b991-350f-4858-9502-f8695e632e23",
             "value": "Switchblade 300"
         },
         {
@@ -263,7 +435,7 @@
                 "Top speed": "115 mph",
                 "Powerplant": "Electric"
             },
-            "uuid": "6e30d090-99db-40b0-8e79-06d63a55e7ad",
+            "uuid": "a921c018-37b6-4b32-806a-6aff59fb5ec2",
             "value": "Switchblade 600"
         },
         {
@@ -276,7 +448,7 @@
                 "Top speed": "N/A",
                 "Power plant": "Electric"
             },
-            "uuid": "26330a4e-72ef-4775-9b63-72d92a4fc705",
+            "uuid": "56ef55b3-77ce-493e-a226-1f4e58b2ef4b",
             "value": "Phoenix Ghost"
         },
         {
@@ -289,8 +461,21 @@
                 "Top speed": "50 mph",
                 "Power plant": "Electric"
             },
-            "uuid": "9498f1e8-fb85-4e4f-b322-fdcdbd62401d",
+            "uuid": "b256e11b-71e4-42e1-a9d0-af7c36ecdd3a",
             "value": "WB Group Warmate"
+        },
+        {
+            "description": "Zala KYB",
+            "meta": {
+                "Operator": "Russia",
+                "Made in": "Russia",
+                "Wingspan": "4 feet",
+                "Flight time": "30 minutes",
+                "Top speed": "80 mph",
+                "Power plant": "Electric"
+            },
+            "uuid": "2129e55f-c26c-400b-b93f-3f80cddc4daf",
+            "value": "Zala KYB"
         }
     ],
     "version": 1
